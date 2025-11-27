@@ -1,9 +1,9 @@
 <div align="center">
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 
-# Microsoft Learning Hub
+# Learn-hub-esi
 
-A modern, interactive learning platform for Microsoft technologies with an AI-powered chatbot assistant.
+A modern, interactive learning platform with an AI-powered chatbot assistant.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![React](https://img.shields.io/badge/React-18.2.0-blue.svg)](https://reactjs.org/)
@@ -14,8 +14,8 @@ A modern, interactive learning platform for Microsoft technologies with an AI-po
 
 ## ✨ Features
 
-- 📚 **Comprehensive Course Catalog** - Browse curated Microsoft learning paths and courses
-- 🤖 **AI Chatbot Assistant** - Get instant help and recommendations powered by Google Gemini
+- 📚 **Comprehensive Course Catalog** - Browse curated learning paths and courses
+- 🤖 **AI Chatbot Assistant** - Get instant help and recommendations
 - 🔍 **Smart Search** - Quickly find courses by title or topics
 - 📱 **Responsive Design** - Works seamlessly on desktop and mobile devices
 - 🎨 **Modern UI** - Clean, intuitive interface with smooth animations
@@ -26,7 +26,7 @@ A modern, interactive learning platform for Microsoft technologies with an AI-po
 - **Build Tool:** Vite
 - **Styling:** Tailwind CSS
 - **Icons:** Lucide React
-- **AI:** Google Gemini API
+- **AI:** Google Generative AI
 - **Markdown:** Marked + DOMPurify
 
 ## 🚀 Getting Started
@@ -41,8 +41,8 @@ A modern, interactive learning platform for Microsoft technologies with an AI-po
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/microsoft-learning-hub.git
-   cd microsoft-learning-hub
+   git clone https://github.com/yourusername/learn-hub-esi.git
+   cd learn-hub-esi
    ```
 
 2. **Install dependencies**
@@ -77,7 +77,7 @@ A modern, interactive learning platform for Microsoft technologies with an AI-po
 ## 📁 Project Structure
 
 ```
-microsoft-learning-hub/
+learn-hub-esi/
 ├── components/
 │   ├── CategorySection.tsx   # Course category display
 │   ├── ChatBot.tsx           # AI chatbot component
@@ -109,8 +109,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- [Microsoft Learn](https://learn.microsoft.com/) for course inspiration
-- [Google Gemini](https://ai.google.dev/) for AI capabilities
+- [Google AI](https://ai.google.dev/) for AI capabilities
 - [Lucide Icons](https://lucide.dev/) for beautiful icons
 
 ---
