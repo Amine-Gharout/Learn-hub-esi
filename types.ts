@@ -13,7 +13,6 @@ export interface Course {
   isRecommended?: boolean;
   details?: string; // Short description for UI
   prerequisites?: string[]; // List for data structure
-  aiContent?: string; // Detailed workflow and context strictly for the AI model
 }
 
 export interface Category {

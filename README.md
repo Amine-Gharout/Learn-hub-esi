@@ -2,7 +2,7 @@
 
 # Learn-hub-esi
 
-A modern, interactive learning platform with an AI-powered chatbot assistant.
+A modern, interactive learning platform with curated courses for AI, ML, Web Dev, and more.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![React](https://img.shields.io/badge/React-18.2.0-blue.svg)](https://reactjs.org/)
@@ -14,7 +14,6 @@ A modern, interactive learning platform with an AI-powered chatbot assistant.
 ## ✨ Features
 
 - 📚 **Comprehensive Course Catalog** - Browse curated learning paths and courses
-- 🤖 **AI Chatbot Assistant** - Get instant help and recommendations
 - 🔍 **Smart Search** - Quickly find courses by title or topics
 - 📱 **Responsive Design** - Works seamlessly on desktop and mobile devices
 - 🎨 **Modern UI** - Clean, intuitive interface with smooth animations
@@ -25,8 +24,6 @@ A modern, interactive learning platform with an AI-powered chatbot assistant.
 - **Build Tool:** Vite
 - **Styling:** Tailwind CSS
 - **Icons:** Lucide React
-- **AI:** Google Generative AI
-- **Markdown:** Marked + DOMPurify
 
 ## 🚀 Getting Started
 
@@ -34,7 +31,6 @@ A modern, interactive learning platform with an AI-powered chatbot assistant.
 
 - [Node.js](https://nodejs.org/) (v18 or higher recommended)
 - npm or yarn
-- Google Gemini API Key
 
 ### Installation
 
@@ -49,21 +45,22 @@ A modern, interactive learning platform with an AI-powered chatbot assistant.
    npm install
    ```
 
-3. **Set up environment variables**
-   
-   Create a `.env.local` file in the root directory:
-   ```env
-   GEMINI_API_KEY=your_gemini_api_key_here
-   ```
-
-4. **Run the development server**
+3. **Run the development server**
    ```bash
    npm run dev
    ```
 
-5. **Open your browser**
+4. **Open your browser**
    
    Navigate to `http://localhost:5173` to see the app.
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+The production files will be output to the `dist/` folder — ready to deploy on any static hosting platform (Vercel, Netlify, GitHub Pages, etc.).
 
 ## 📦 Available Scripts
 
@@ -79,14 +76,12 @@ A modern, interactive learning platform with an AI-powered chatbot assistant.
 learn-hub-esi/
 ├── components/
 │   ├── CategorySection.tsx   # Course category display
-│   ├── ChatBot.tsx           # AI chatbot component
 │   └── CourseCard.tsx        # Individual course card
-├── services/
-│   └── ai.ts                 # AI service integration
 ├── App.tsx                   # Main application component
 ├── constants.ts              # Course data and configuration
 ├── types.ts                  # TypeScript type definitions
 ├── index.tsx                 # Application entry point
+├── index.css                 # Tailwind CSS entry
 ├── index.html                # HTML template
 ├── vite.config.ts            # Vite configuration
 └── tsconfig.json             # TypeScript configuration
@@ -108,7 +103,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- [Google AI](https://ai.google.dev/) for AI capabilities
 - [Lucide Icons](https://lucide.dev/) for beautiful icons
 
 ---

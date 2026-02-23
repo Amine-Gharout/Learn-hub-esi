@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { COURSE_DATA } from './constants';
 import { CategorySection } from './components/CategorySection';
-import { ChatBot } from './components/ChatBot';
 import { Search, Menu, X, Github, BookOpen, Sparkles, Linkedin } from 'lucide-react';
 
 const App: React.FC = () => {
@@ -219,8 +218,6 @@ const App: React.FC = () => {
         </div>
       </main>
 
-      {/* AI Chatbot */}
-      <ChatBot />
     </div>
   );
 };
