@@ -6,7 +6,7 @@ import { Search, Menu, X, Github, BookOpen, Sparkles, Linkedin } from 'lucide-re
 
 const App: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [activeSection, setActiveSection] = useState<string>('recommended');
+  const [activeSection, setActiveSection] = useState<string>('simple-intros');
   const [searchQuery, setSearchQuery] = useState('');
 
   // Simple smooth scroll handler
@@ -162,7 +162,7 @@ const App: React.FC = () => {
                 Start with the recommended Azure paths.
               </p>
               <button
-                onClick={() => scrollToSection('recommended')}
+                onClick={() => scrollToSection('cloud-infra')}
                 className="w-full py-1.5 px-3 bg-blue-600 hover:bg-blue-500 rounded text-xs font-medium transition-colors"
               >
                 View Path
@@ -196,7 +196,7 @@ const App: React.FC = () => {
                     <span className="text-white font-medium"> Microsoft</span>.
                   </p>
                   <button
-                    onClick={() => scrollToSection('recommended')}
+                    onClick={() => scrollToSection('cloud-infra')}
                     className="mt-5 inline-flex items-center gap-2 px-5 py-2.5 bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold rounded-xl transition-colors shadow-lg shadow-blue-600/30"
                   >
                     Start learning
